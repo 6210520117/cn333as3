@@ -47,7 +47,6 @@ fun NumberGuessing() {
 
     fun reset() {
         random = Random.nextInt(1, 1000)
-        random = 11
         text.value = "Try to guess the number I'm thinking of from 1 - 1000!"
         inGame = true
         count = 0
